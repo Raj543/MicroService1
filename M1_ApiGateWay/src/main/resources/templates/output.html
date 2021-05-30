@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>TrainingSession</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+	<body>
+	 <div class="container"><br></br>
+		 <div align="center" class="form-style-6" >
+		 	<h2> The Output is : </h2>
+		 </div>
+	      <div align="center" class="form-style-6">
+			<h3><span th:text="${msg}"/></span></h3>
+		</div><br></br>
+		<div align="right" class="form-style-1">
+		 <h3><a th:href="@{/gateway/action}">home</a></h3>
+	  </div>
+	  <div align="right" class="form-style-1">
+		 <h3><a th:href="@{/gateway/exit}">exit</a></h3>
+	  </div>
+  </div>
+</body>	
